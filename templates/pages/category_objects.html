@@ -1,0 +1,427 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from templates.hibootstrap.com/ruzo/default/menu.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Apr 2024 10:13:46 GMT -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/boxicons.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/fancybox.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/odometer.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/scrollCue.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/dark.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+    <title>{{ category.name }}</title>
+    <link rel="icon" type="image/webp" href="{% static 'assets/images/logo-kafe/file - Copy.png' %}">
+</head>
+
+<body dir="rtl">
+
+    <!-- <div class="preloader">
+<div class="loader">
+<div class="loader-outter"></div>
+<div class="loader-inner"></div>
+<span>Ketab</span>
+</div>
+</div> -->
+
+
+    <!-- <div class="submenu-area submenu-two-area">
+<div class="container-fluid">
+<div class="row align-items-center">
+<div class="col-lg-4 col-md-3">
+<div class="submenu-right-content">
+<ul>
+<li>
+<a href="https://www.facebook.com/" target="_blank">
+<i class="bx bxl-facebook"></i>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/" target="_blank">
+<i class="bx bxl-twitter"></i>
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/" target="_blank">
+<i class="bx bxl-linkedin"></i>
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/" target="_blank">
+<i class="bx bxl-instagram"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-8 col-md-9">
+<div class="submenu-left-content">
+<ul>
+<li>
+<img src="assets/images/phone-icon.svg" alt="icon">
+<a href="tel:(+0188)76870859">(+0188) 7687 0859</a>
+</li>
+<li>
+<img src="assets/images/email-icon.svg" alt="icon">
+<a href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#442c2128282b0436313e2b302c212921376a272b29"><span class="__cf_email__" data-cfemail="c4aca1a8a8ab84b6b1beabb0aca1a9a1b7eaa7aba9">[email&#160;protected]</span></a>
+</li>
+<li>
+<img src="assets/images/map.svg" alt="icon">
+<p>4b, Walse Street , USA</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+
+
+    <div style="background-color: white;" class="navbar-area">
+
+        <div class="container">
+            <div style="background-color: aliceblue;" class="mobile-nav">
+                <div class="logo">
+                    <a href="">
+                        <img src="{% static 'assets/images/logo-kafe/file-2.png' %}" class="logo-light" alt="imagesss">
+                        <img src="{% static 'assets/images/logo-kafe/file - Copy.png' %}" class="logo-dark"
+                            alt="imagessss">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-nav main-two-nav">
+            <div class="container-fluid">
+                <!-- <nav class="navbar navbar-expand-md navbar-light"> -->
+                <!-- <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent"> -->
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item nav-item-five">
+                        <!-- <a href="#" class="nav-link dropdown-toggle">
+Homefdvbfd
+<i class="bx bx-plus"></i>
+</a> -->
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home One</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index-2.html" class="nav-link">Home Two</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="index-3.html" class="nav-link">Home Three</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-item-five">
+                        <!-- <a href="#" class="nav-link dropdown-toggle">
+Pagesdfvbfd
+<i class="bx bx-plus"></i>
+</a> -->
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="booking-table.html" class="nav-link">Booking Table</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="team.html" class="nav-link">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="testimonials.html" class="nav-link">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="faq.html" class="nav-link">FAQ’s</a>
+                            </li>
+                            <li class="nav-item nav-item-five">
+                                <a href="#" class="nav-link dropdown-toggle">
+                                    Portfolio
+                                    <i class="bx bx-plus"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="portfolio-details.html" class="nav-link">Portfolio Details</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle">
+                                    User
+                                    <i class="bx bx-plus"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="my-account.html" class="nav-link">My Account</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="login.html" class="nav-link">Login</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="register.html" class="nav-link">Register</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="forgot-password.html" class="nav-link">Forgot Password</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="terms-conditions.html" class="nav-link">Terms & Conditions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="error.html" class="nav-link">Error</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="coming-soon.html" class="nav-link">Coming Soon</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a href="#" class="nav-link dropdown-toggle active">
+Menu
+<i class="bx bx-plus"></i>
+</a> -->
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a href="menu.html" class="nav-link active">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="menu-details.html" class="nav-link">Menu Details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-item-five">
+                        <!-- <a href="#" class="nav-link dropdown-toggle">
+Shopdfgvbfd
+<i class="bx bx-plus"></i>
+</a> -->
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a href="shop.html" class="nav-link">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="shop-details.html" class="nav-link">Shop Details</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="cart.html" class="nav-link">Cart</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="checkout.html" class="nav-link">Checkout</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-item-five">
+                        <!-- <a href="#" class="nav-link dropdown-toggle">
+Blog
+<i class="bx bx-plus"></i>
+</a> -->
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a href="blog.html" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="blog-details.html" class="nav-link">Blog Details</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a href="contact.html" class="nav-link">Contact Us</a> -->
+                    </li>
+                    <li class="nav-item logo">
+                        <a href="index.html" class="nav-link">
+                            <img src="{% static 'assets/images/logo-kafe/file - Copy.png' %}" class="logo-light"
+                                alt="images">
+                            <img src="{% static 'assets/images/logo-kafe/file-2.png' %}" class="logo-dark" alt="images">
+                        </a>
+                    </li>
+                </ul>
+                <!-- <div class="others-option-vg d-flex align-items-center">
+ <div class="option-item">
+<i class="bx bx-search search-btn"></i>
+<i class="bx bx-x close-btn"></i>
+<div class="search-overlay search-popup">
+<div class="search-box">
+<form class="search-form">
+<input class="search-input" placeholder="Search..." type="text">
+<button class="search-button" type="submit">
+<i class="bx bx-search"></i>
+</button>
+</form>
+</div>
+</div>
+</div> -->
+                <!-- <div class="option-item">
+<div class="shapping-bag">
+<a href="cart.html">
+<img src="assets/images/pping-bag-icon.svgsho" alt="images">
+</a>
+<div class="shapping-text">
+01
+</div>
+</div>
+</div> -->
+                <!-- <div class="option-item">
+<a href="booking-table.html" class="default-btn">Book A Table</a>
+</div> -->
+            </div>
+        </div>
+        </nav>
+    </div>
+    </div>
+    <div class="others-option-for-responsive">
+        <div class="container">
+            <div class="dot-menu">
+                <!-- <div class="inner">
+<div class="circle circle-one"></div>
+<div class="circle circle-two"></div>
+<div class="circle circle-three"></div>
+</div> -->
+            </div>
+            <div class="container">
+                <div class="option-inner">
+                    <div class="others-option justify-content-center d-flex align-items-center">
+                        <div class="option-item">
+                            <i class="bx bx-search search-btn"></i>
+                            <i class="bx bx-x close-btn"></i>
+                            <div class="search-overlay search-popup">
+                                <div class="search-box">
+                                    <form class="search-form">
+                                        <input class="search-input" placeholder="Search..." type="text">
+                                        <button class="search-button" type="submit">
+                                            <i class="bx bx-search"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="option-item">
+                            <div class="shapping-bag">
+                                <a href="cart.html">
+                                    <img src="{% static 'assets/images/shopping-bag-icon.svg' %}" alt="images">
+                                </a>
+                                <div class="shapping-text">
+                                    01
+                                </div>
+                            </div>
+                        </div>
+                        <div class="option-item">
+                            <a href="booking-table.html" class="default-btn">Book A Table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="pag-banner-area menu-pages-banner-area jarallax" data-jarallax="{&quot;speed&quot;: 0.3}">
+        <div class="container">
+            <div style="direction: ltr;" class="page-banner-content">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div class="page-banner-shape">
+            <img src="{% static 'assets/images/page/page-banner-shape-1.webp' %}" alt="images">
+        </div>
+    </div>
+
+    <div class="special-menu-area pt-100 pb-100">
+        <div class="container">
+            <div class="section-title">
+                <h1></h1>
+                <h2>کافه کتاب</h2>
+            </div>
+            <div class="special-menu-tabs">
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                        tabindex="0">
+                        <div class="single-special-menu-content">
+                            <div class="row">
+                                {% for product in products %}
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="special-card">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-3 col-4">
+                                                <div class="special-menu-img">
+                                                    <a href="#">
+                                                        {% if product.image %}
+                                                        <img src="{{ product.image.url }}" alt="images">
+                                                        {% else %}
+                                                        <img src="#" alt="images">
+                                                        {% endif %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-6">
+                                                <div class="special-menu-text">
+                                                    <a href="#">
+                                                        <h3>{{ product.title }}</h3>
+                                                    </a>
+                                                    <p>{{ product.description }}</p>
+                                                </div>
+                                            </div>
+                                            {% if product.status %}
+                                            <div class="col-lg-3 col-2">
+                                                <div class="special-menu-number">
+                                                    <span>T {{ product.price }}</span>
+                                                </div>
+                                            </div>
+                                            {% else %}
+                                            <div class="col-lg-3 col-2">
+                                                <div class="special-menu-number">
+                                                    <span>موجود نیست</span>
+                                                </div>
+                                            </div>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <script data-cfasync="false"
+                        src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+                    <script src="{% static 'assets/js/meanmenu.min.js' %}"></script>
+                    <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
+                    <script src="{% static 'assets/js/scrollCue.min.js' %}"></script>
+                    <script src="{% static 'assets/js/bootstrap-datepicker.min.js' %}"></script>
+                    <script src="{% static 'assets/js/appear.min.js' %}"></script>
+                    <script src="{% static 'assets/js/odometer.min.js' %}"></script>
+                    <script src="{% static 'assets/js/magnific-popup.min.js' %}"></script>
+                    <script src="{% static 'assets/js/fancybox.min.js' %}"></script>
+                    <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+                    <script src="{% static 'assets/js/parallax.min.js' %}"></script>
+                    <script src="{% static 'assets/js/ajaxchimp.min.js' %}"></script>
+                    <script src="{% static 'assets/js/form-validator.min.js' %}"></script>
+                    <script src="{% static 'assets/js/subscribe-custom.js' %}"></script>
+                    <script src="{% static 'assets/js/contact-form-script.js' %}"></script>
+                    <script src="{% static 'assets/js/main.js' %}"></script>
+</body>
+
+<!-- Mirrored from templates.hibootstrap.com/ruzo/default/menu.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Apr 2024 10:13:48 GMT -->
+
+</html>
